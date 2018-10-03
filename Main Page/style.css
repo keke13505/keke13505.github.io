@@ -1,0 +1,24 @@
+body {
+	border: 10px solid black
+}
+
+body {font-size: 20px
+}
+p{
+	text-align: center
+}
+
+.opening {
+	color: red;
+	text-transform: capitalize;
+	font-size: 30px;
+	vertical-align: middle;
+
+}
+
+.links { 
+	text-align: center;
+	vertical-align: middle;
+
+
+}
