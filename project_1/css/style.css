@@ -1,0 +1,42 @@
+body{
+	background-image:url('../img/cheese.png'); 
+}
+
+body{font-size: 20px
+}
+
+
+h1{ text-align: center;
+	color: blue; 
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
+p{
+
+	text-align: center;
+	color: blue;
+	font-size: 30px }
+
+.first {
+	color: yellow;
+	text-transform: uppercase; 
+	background: black
+}
+
+.second {
+	color: black;
+	font-size: 30px
+}
+
+.third {
+	color: orange
+	text-align: center;
+	background: yellow;
+}
+
+.fourth{
+	background-image:url('../img/moon.png');
+	font-size: 40px
+	
+}

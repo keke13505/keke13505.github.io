@@ -1,0 +1,154 @@
+div{
+	width: 300px;
+	border:20px yellow;
+	padding: 20px;
+	margin: 25px
+}
+
+.image {
+	width: 15px
+	height:10px;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin-top: 20px
+	margin-bottom:0;
+	margin-left:0
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex:1;
+	margin:0-8px;
+}
+
+section > * {
+	margin: 0 8px
+}
+
+.tall {
+	max-width: 100px
+}
+
+img {
+	display: block;
+}
+
+.divider {
+	background: black;
+}
+
+.item {
+	flex: 100 auto;
+	background: black
+}
+
+.blue, .black, .yellow, .blue1, .yellow1 {
+	width: 20px;
+	height: 300px;
+}
+
+.blue {
+	background-color: blue
+}
+
+.black {
+	background-color: black
+}
+
+.yellow {
+	background-color: yellow
+}
+
+.flex-direction {
+	justify-content: row
+}
+
+.blue1 {
+	background-color: blue
+}
+
+.yellow1 {
+	background-color: yellow
+}
+
+p {
+	font-family: sans-serif;
+	text-transform: capitalize;
+	text-align: right;
+	color: black;
+	font-size: 30px;
+
+}
+
+
+
+.right {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.img {
+	background: black
+}
+
+.link :: after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width .3s
+}
+
+.link : hover :: after {
+	width: 100%;
+	transition: width .3s
+}
+
+.img {
+	float: right;
+}
+
+.wrapper {
+	font-family: sans-serif;
+	width: 70%;
+	margin: 0 auto;
+	left: 55%
+	top: 50%;*/
+	/*transform: translate(-50%, -50%);
+	position: absolute
+
+}
+
+img {
+	display: block;
+	/*width: 80%;*/
+	height: auto;
+}
+
+.content {
+	position: absolute;
+	transform: translate(-50%, -50%)
+	color: green;
+	text-transform: uppercase;
+	font-size: 28px
+}
+
+/*.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 80%;
+	opacity: 0;
+	transition: .5s ease;
+}*/
+	
