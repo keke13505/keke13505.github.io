@@ -1,0 +1,119 @@
+.container >div {
+	background: yellow;
+	display: flex;
+	width: 1000px;
+	height: 1000px;
+	text-align: center;
+	line-height: 100px; 
+}
+
+.text {
+	position: absolute;
+	top: 0px;
+	width: 10px;
+	font-size: 30px
+}
+
+.pink1 >div {
+	background: pink;
+	display: flex;
+	width: 100px;
+	height: 500px;
+	position: absolute;
+	top: 8px
+
+}
+
+
+.pink2 >div {
+	background: #D100D1; 
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	left: 100px
+}
+
+.fish {
+	position: absolute;
+	top: 20px;
+	left:100px;
+	width: 500px
+}
+
+.pink3 >div {
+	background: #FF05FF;
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 125px;
+	left:120px;
+}
+
+.fish2 {
+	position: absolute;
+	top: 125px;
+	left: 120px;
+	width: 500px
+}
+
+.star >div {
+	background: #FF5BFF;
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top:230px;
+	left:135px;
+
+}
+.star {
+	font-size: 30px
+}
+
+.red >div {
+	background: #FF89FF;
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 335px;
+	left:160px;
+	font-size: 30px
+}
+
+.sad >div {
+	background: #FEA3FE;
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 440px;
+	left:190px;
+	font-size: 30px
+}
+
+.bad >div {
+	background: #FEB7FE;
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 550px;
+	left:220px;
+	font-size: 30px
+}
+
+.thin >div {
+	background: #FFC6FF;
+	display: flex;
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 660px;
+	left:250px;
+	font-size: 30px
+}
+

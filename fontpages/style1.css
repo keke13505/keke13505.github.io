@@ -1,0 +1,116 @@
+.red, .blue, .black, {
+	position: 
+	font-size: 30px;
+
+}
+
+
+.text {
+	position: relative;
+	top: -800px;
+	left: 430px;
+	width: 200px;
+}
+
+.red {
+	color: red;
+	position: relative;
+	font-size: 30px;
+	left:50px;
+	
+}
+
+.blue, .star {
+	color: blue;
+	position: relative;
+	right: 40px
+}
+
+.black {
+	color: black
+}
+
+.fish {
+	position: relative;
+	color: orange;
+	left: 30px;
+}
+
+.say {
+	position: relative;
+	right: -90px;
+	font-size: 30px;
+	background-color: yellow
+
+}
+
+.sad {
+	position: relative;
+	left: -130px;
+	top: -40px;
+	font-size: 25px;
+	background-color: pink;
+}
+
+.thin {
+	position: relative;
+	top: -80px;
+	width: 420px;
+	left: 70px;
+	font-size: 20px;
+	color: green;
+}
+
+.feet {
+	position: relative;
+	top: -75px;
+	width: 1000px;
+	right: 400px;
+	background-color: blue;
+	color:pink;
+}
+
+.some {
+	position: relative;
+	right: 350px;
+	font-size: 70px;
+	top: -40px;
+	width: 1000px;
+}
+
+.fast {
+	position: relative;
+	right: 200px;
+	font-size: 60px;
+	top: -160px;
+}
+
+.slow {
+	position: relative;
+	right: 200px;
+	width: 800px;
+	font-size: 60px;
+	top: -140px;
+}
+
+
+.high {
+	position: relative;
+	background-color: yellow;
+	color: orange;
+	top: -180px;
+	left: 100px;
+}
+
+.end {
+	position: relative;
+	color: red;
+	bottom: 170px;
+	width: 800px;
+	right: 400px;
+}
+
+
+
+
+

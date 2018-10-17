@@ -1,0 +1,17 @@
+.one {
+	position: absolute;
+	font-family: 'Charmonman', cursive;
+	top:0;
+	font-size: 30px;
+	opacity: .2
+
+}
+
+.two {
+	position: absolute;
+	font-family: 'Abel', sans-serif;
+	font-weight: bold;
+	width: 400px;
+	right: 400px
+
+}

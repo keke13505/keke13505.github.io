@@ -1,0 +1,39 @@
+.container >div{
+	/*background: blue;*/
+	color:#FFF;
+	/*width: 300px;
+	height: 80px;*/
+	line-height: 40px;
+	text-align: center;
+	}
+
+.container {
+	border: solid 2px black;
+}
+
+.header {
+	background: blue;
+	width: 300px;
+	height: 80px;
+	border: solid 2px black;
+}
+
+.by {
+	background: green;
+	width: 300px;
+	height: 40px;
+	border: solid 2px black;
+}
+.header {
+	font-size: 25px;
+
+}
+
+.text {
+	background: pink;
+	width: 400px;
+	height: 900px;
+	border: solid 2px black;
+
+
+}

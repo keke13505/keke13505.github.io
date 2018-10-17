@@ -1,0 +1,31 @@
+.fixed {
+	position: fixed;
+	top: 0px;
+}
+
+.one {
+	width:250px;
+	color:blue;
+	position: fixed;
+	top:70px;
+	font-size: 25px
+}
+
+.two {
+	position: fixed;
+	width: 250px;
+	color:blue;
+	font-size: 25px;
+	left: 335px;
+	top: 70px;
+	
+}
+
+.three {
+	position: fixed;
+	width: 250px;
+	color: blue;
+	font-size: 25px;
+	left:650px;
+	top:70px;
+}
