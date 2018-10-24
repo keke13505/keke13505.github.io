@@ -1,0 +1,208 @@
+body {
+	background-color: #A6A1A9;
+
+}
+
+.text {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	width: 380px;
+}
+
+.misfit {
+	color: #F23B3B;
+	font-family: font-family: 'Anton', sans-serif;
+	position: absolute;
+	font-size: 60px;
+	left: 280px;
+	top: 100px;
+	transform: rotate(-20deg);
+}
+
+.rebels {
+	color: #9F1BEE;
+	font-family: 'Sedgwick Ave Display', cursive;
+	position: absolute;
+	font-size: 50px;
+	top: 100px;
+	left: 450px
+}
+
+.trouble {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	font-size: 50px;
+	top: 170px;
+	left: 400px
+}
+
+
+.r1 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 50px;
+	top: 340px;
+	left: 30px;
+	transform: rotate(-48deg);
+}
+
+.r2 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 50px;
+	top: 270px;
+	left: 100px;
+	transform: rotate(-25deg);
+}
+
+.r3 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 50px;
+	top: 270px;
+	left: 240px;
+	transform: rotate(25deg);
+
+}
+
+.r4 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 50px;
+	top: 320px;
+	left: 360px;
+	transform: rotate(40deg);
+}
+
+.r5 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 50px;
+	top: 342px;
+	left: 400px;
+
+}
+
+.r6 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	border: solid;
+	border-width: 2px;
+	border-color: pink;
+	width: 50px;
+	position: absolute;
+	left: 480px;
+	top: 350px;
+}
+
+.r7 {
+	color: #FC43E4;
+	font-family: 'Raleway', sans-serif;
+	border: solid;
+	border-width: 2px;
+	font-size: 60px;
+	border-color: white;
+	width: 1300px;
+	height: 90px;
+	position: absolute;
+	left: 0px;
+	top: 430px;
+	text-align: center;
+
+}
+
+.r8 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	border: solid;
+	border-width: 2px;
+	font-size: 30px;
+	border-color: white;
+	width: 200px;
+	height: 90px;
+	position: absolute;
+	left: 210px;
+	top: 522px;
+	text-align: center;
+
+}
+
+.r9 {
+	color: #FC43E4;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 100px;
+	position: absolute;
+	left:600px;
+	top: 510px;
+}
+
+.r10 {
+	color: #9F1BEE;
+	font-family: 'Raleway', sans-serif;
+	border: solid;
+	border-width: 2px;
+	font-size: 25px;
+	border-color: white;
+	width: 200px;
+	height: 90px;
+	position: absolute;
+	left: 820px;
+	top: 522px;
+	text-align: center;
+
+}
+
+.r11 {
+	color: #FC43E4;
+	font-family: 'Raleway', sans-serif;
+	border:solid;
+	border-color: white;
+	width: 1300px;
+	height: 100px;
+	position: absolute;
+	left: 0px;
+	top: 612px;
+	font-size: 40px;
+	text-align: center;
+
+}
+	
+.b1, .b2, .b3, .b4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-left: 500px;
+	font-size: 80px;
+	color: white
+
+}
+
+.b1 {
+	position: absolute;
+	top: 750px;
+}
+
+.b2 {
+	position: absolute;
+	top: 820px	
+}
+
+.b3 {
+	position: absolute;
+	top: 890px
+}
+
+.b4 {
+	position: absolute;
+	top: 970px
+}

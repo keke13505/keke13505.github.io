@@ -3,7 +3,9 @@
 	font-family: 'Charmonman', cursive;
 	top:0;
 	font-size: 30px;
-	opacity: .2
+	opacity: .2;
+	width: 1000px;
+	height: 500px
 
 }
 
@@ -12,6 +14,8 @@
 	font-family: 'Abel', sans-serif;
 	font-weight: bold;
 	width: 400px;
-	right: 400px
+	right: 400px;
+	color: blue;
+	font-size: 30px
 
 }

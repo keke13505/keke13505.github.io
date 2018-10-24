@@ -1,63 +1,129 @@
-@font-face {
-	font-family: "cool";
-	src: url(fonts/ChunkFive-Regular.woff2) format("woff2");
+
+body {
+	background: black
 }
 
- @font-face {
- 	font-family: "fish";
- 	src: url(fonts/Findet-Nemo.ttf.woff) format("woff");
- }
+h1 {
+	 font-family: 'Press Start 2P', cursive;
+	 color: #7FFF00;
+	 position: absolute;
+	 top: 0px;
+	 left: 100px
+}
 
- @font-face {
- 	font-family: "star";
- 	src: url(fonts/STARWARS.woff) format("woff");
- }
+.h2 {
+	font-family: 'Press Start 2P', cursive;
+	 color: #7FFF00;
+	 position: absolute;
+	 top: 30px;
+	 left: 100px
+}
 
- @font-face {
- 	font-family: "race";
- 	src: url(fonts/racew17.woff) format("woff");
- }
+.dot {
+	font-family: 'Press Start 2P', cursive;
+	color: #7FFF00;
+	position: fixed;
+	top: 90px;
+	left: 500px;
 
-h1{ font-weight: 100px;
-	font-family: cool;
+	
 
 
 }
 
- .fish {
- 	font-family: "fish";
- 	font-size: 70px;
- 	
- }
 
- .star {
- 	position: relative;
- 	font-family: "star";
- 	font-size:60px;
- 	top: -100px;
- 	left: 200px
+.wrapper {
+	border-width:5px; 
+	border-style:solid; 
+	border-color:yellow;
+	width: 200px;
+	height: 210px;
+	text-align: center;
+	display: block;
+	margin-left: 250px;
+	margin-top: 700px;
+	color: yellow;
+	font-family: 'Chakra Petch', sans-serif;
 
- }
-
- .car {
- 	position: relative;
- 	font-family: "race";
- 	font-size: 30px;
- 	top: -98px;
- 	right: 10px;
+}
 
 
- }
+.dot1, .dot2, .dot3, .dot4, .dot5 {
+	color: #7FFF00;
+	font-family: 'Press Start 2P', cursive;
+	margin-right: 300px;
+	font-size: 50px
+}
 
- .say {
- 	position: absolute; 
- 	font-family: "cool";
- 	top: 400px;
- 	font-size: 150px;
- 	left: 250px;
+.dot1, .dot2, .dot3, .dot4, .dot5 {
+	display: block;
+	left: 120px;
+	margin-left: 450px;
+	margin-top: -190px
+}
+
+.text {
+	font-family: 'Press Start 2P', cursive;
+	color: #7FFF00;
+	position: absolute;
+	left: 700px;
+	width: 30px
 
 
- }
+}
+
+.d1, .d2, .d3, .d4, .d5 {
+	color: #7FFF00;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 50px
+
+}
+
+.d1 {
+	position: block;
+	margin-bottom: 40px;
+	margin-left: 580px;
+	margin-top: 80px
+}
+
+
+.d2 {
+	position: block;
+	margin-bottom: 30px;
+	margin-left: 600px;
+	margin-top: 80px
+}
+
+
+.d3 {
+	position: block;
+	margin-bottom: 30px;
+	margin-left: 620px;
+	margin-top: 80px
+}
+
+
+.d4 {
+	position: block;
+	margin-bottom: 30px;
+	margin-left: 650px;
+	margin-top: 80px
+}
+
+
+
+.d4 {
+	position: block;
+	margin-bottom: 30px;
+	margin-left: 680px;
+	margin-top: 80px
+}
+
+
+
+
+
+
 
 
 

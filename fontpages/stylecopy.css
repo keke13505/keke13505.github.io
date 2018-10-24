@@ -1,0 +1,53 @@
+.flex {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-color: 1px solid black;
+}
+
+.cube {
+	margin:20px auto;
+	width: 200px;
+	height: 200px;
+	background color: orange;
+	color: orange
+}
+
+
+
+h1 {
+	font-weight: 30;
+	font-family: 'Bungee Shade', cursive;
+	position: relative;
+	top: 10px;
+	width: 50px;
+	height: 30px;
+
+}
+
+.text {
+	font-family: 'Archivo Black', sans-serif;
+	position: absolute;
+	width: 700px;
+	top: 30px;
+	left: 170px;
+	font-size: 50px;
+}
+
+/*tablet position/*/
+@media (min-width: 700px) {
+	.flex {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	.cube {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+
+
+
+

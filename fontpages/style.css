@@ -1,24 +1,49 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.cube {
+  margin: 20px auto;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  text-align: center;
+  color: black
+}
+
+/*tablet stuff :-/ */
+@media (min-width: 700px) {
+  .flex {
+    /*flex wrap tells the cubes to wrap around*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .cube {
+    width: 40px;
+    height: 40px;
+    font-size: 20px
+  }
+}
+
 h1 {
-	font-weight: 30;
-	position: relative;
-	top: 10px;
-	width: 50px;
-	height: 30px;
+  font-weight: 30;
+  font-family: 'Bungee Shade', cursive;
+  position: absolute;
+  width: 50px;
+  height: 30px;
 
 }
 
 .text {
-	position: absolute;
-	width: 1000px;
-	top: 30px;
-	left: 15px;
-	font-size: 50px;
-}
-
-.text1 {
-	position: fixed;
-	right: 2;
-	left: 1030px;
-	width: 115px;
-	top: 0px;
+  font-family: 'Archivo Black', sans-serif;
+  position: absolute;
+  width: 670px;
+  top: 140px;
+  left: 170px;
+  font-size: 40px;
 }

@@ -1,31 +1,52 @@
+
+
 .fixed {
-	position: fixed;
-	top: 0px;
+	position: absolute;
+	right: 300px;
+	bottom: 350px;
+	background: yellow;
+	font-family: 'Bungee Shade', cursive;
 }
 
 .one {
+	font-family: 'Archivo Black', sans-serif;
 	width:250px;
 	color:blue;
 	position: fixed;
-	top:70px;
-	font-size: 25px
+	top:40px;
+	font-size: 25px;
+	left: 130px;
+
 }
 
 .two {
+	font-family: 'Archivo Black', sans-serif;
 	position: fixed;
 	width: 250px;
 	color:blue;
 	font-size: 25px;
-	left: 335px;
-	top: 70px;
+	left: 460px;
+	top: 40px;
 	
 }
 
 .three {
+	font-family: 'Archivo Black', sans-serif;
 	position: fixed;
 	width: 250px;
 	color: blue;
 	font-size: 25px;
-	left:650px;
-	top:70px;
+	left:130px;
+	top:340px;
+}
+
+.four {
+	font-family: 'Archivo Black', sans-serif;
+	position: fixed;
+	width: 250px;
+	color: blue;
+	font-size:25px;
+	right: 250px;
+	top: 340px;
+
 }

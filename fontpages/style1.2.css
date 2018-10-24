@@ -1,0 +1,21 @@
+.rotate {
+	font-family: 'Archivo Black';
+	width:300px;
+	font-size: 20px;
+	position: fixed;
+	top: 200px;
+	left: 200px;
+	color: pink;
+	opacity: 50%;
+}
+
+.rotateunder {
+	transform: rotate(42deg);
+	font-size: 30px;
+	font-family: 'Archivo Black';
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	right: 200px;
+
+}
