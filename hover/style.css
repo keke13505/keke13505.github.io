@@ -1,0 +1,40 @@
+.pinkdot {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	background-color: pink;
+}
+
+.pinkdot:hover {
+	background-color: yellow;
+	position: relative;
+	-webkit-animation: diagonal 5s ;
+    -moz-animation: diagonal 5s ;
+    -o-animation: diagonal 5s ;
+    animation: diagonal 5s ;
+}
+
+
+@-webkit-keyframes diagonal {
+    0%       { transform: translatex(30px) translatey(-30px) }
+    50%      { transform: translatex(300px) translatey(300px); }
+    100%     { transform: translatex(-30px) translatey(-30px) }
+}
+
+@-moz-keyframes diagonal {
+    0%       { transform: translatex(30px) translatey(-30px) }
+    50%      { transform: translatex(20px) translatey(20px); }
+    100%     { transform: translatex(100px) translatey(-30px) }
+}
+
+@-o-keyframes diagonal {
+    0%       { transform: translatex(-30px) translatey(-30px) }
+    50%      { transform: translatex(20px) translatey(20px); }
+    100%     { transform: translatex(-30px) translatey(-30px) }
+}
+
+@keyframes diagonal {
+    0%       { transform: translatex(-30px) translatey(-30px) }
+    50%      { transform: translatex(20px) translatey(20px); }
+    100%     { transform: translatex(-30px) translatey(-30px) }
+}*/

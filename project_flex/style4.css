@@ -1,0 +1,110 @@
+body {
+	height: 800px;
+	width: 750px;
+	background-color: black;
+
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom:20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.top {
+	position: absolute;
+	height: 2px;
+	width: 750px;
+	left: 0px;
+	top: 40px
+
+}
+
+.circle {
+	position: flex;
+	background-color: white;
+	width: 3px;
+	height: 3px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+
+.top1 {
+	position: absolute;
+	height: 2px;
+	width: 750px;
+	left: 10px
+}
+
+.top2 {
+	position: absolute;
+	height: 2px;
+	width: 750px;
+	left: 20px;
+}
+
+.top3 {
+	position: absolute;
+	height: 2px;
+	width: 750px;
+	left: 30px
+}
+
+
+.top4 {
+	position: absolute;
+	height: 2px;
+	width: 750px;
+	left: 40px
+}
+
+
+.top5 {
+	position: absolute;
+	height: 2px;
+	width: 750px;
+	left: 50px
+}
+
+h1 {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	top: -10px
+}
+
+.box {
+	display: flex;
+	background-color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 80px;
+	top: 70px;
+}
+
+.box2 {
+	display: flex;
+	background-color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 80px;
+	top: 100px;
+}
+
+.box3 {
+	display: flex;
+	background-color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 80px;
+	top: 130px;
+}
+
+
+
+

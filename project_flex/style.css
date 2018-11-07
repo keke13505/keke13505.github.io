@@ -1,0 +1,128 @@
+body {
+	border: 15px solid black;
+	width: 	750px;
+	height: 750px;
+	margin-top: 0px;
+	margin-left: 0px
+
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom:20px;
+	margin-right: 0;
+	margin-left: 0
+}
+
+.black {
+	display: inline-block;
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: black;
+	color: white;
+	text-align: center;
+
+
+}
+
+h1 {
+	font-family: 'Biryani', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	position: absolute;
+	top: -13px;
+	left: 40px;
+
+}
+
+.black2 {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 120px;
+	left: 35px;
+	background-color: black;
+	text-align: center;
+
+}
+
+p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px
+}
+
+.border {
+	width: 260px;
+	height: 475px;
+	border: 10px solid black;
+	position: absolute;
+	right: 700px;
+	top: 27px;
+	text-align: center;
+}
+
+.text {
+	color: black;
+
+}
+
+.party {
+	width: 750px;
+	height: 200px;
+	position: absolute;
+	top: 550px;
+	background-color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.open {
+	color: white
+	text-transform:capitalize;
+	font-weight: 30px;
+}
+
+
+
+/*
+
+
+
+.cube {
+	display: flex;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  text-align: center;
+  color: black;
+position: absolute;
+top: 20px;
+left: 200px
+
+}*/
+
+
+/*@media (min-width: 700px) {
+  .flex {
+    flex wrap tells the cubes to wrap around
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+*/
+
+
+
+
+
+
+
+
+
+

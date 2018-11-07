@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid black;
+
+}
+
+h1 {
+	position: absolute;
+	transform: rotate(20deg);
+	left: 50px;
+	top: 50px
+}
+
+.misfits {
+	position: fixed;
+	transform: rotate(-20deg);
+	left: 100px;
+	top: 100px
+}
+
+.round {
+	position: absolute;
+	transform: rotate(20deg);
+	left: 150px;
+	top: 150px
+}
+
+.see {
+	position: fixed;
+	transform: rotate(-20deg);
+	left: 200px;
+	top: 200px
+}
+
+
+
+.round {
+	position: absolute;
+	transform: rotate(20deg);
+	left: 250px;
+	top: 250px
+}
+
+
+
+.rules {
+	position: fixed;
+	transform: rotate(-20deg);
+	left: 300px;
+	top: 300px;
+	transition: 
+}
+
+

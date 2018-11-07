@@ -1,0 +1,167 @@
+body {
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+#wrapper, #{
+	border: lightblue;
+	width:250px;
+	height:100px;
+	margin: 120px auto 0 auto;
+	
+
+}
+
+#red, #orange, #yellow, #green, #blue, #purple{
+animation-duration: infinite;
+	
+}
+
+#red:hover {
+	color: red;
+	text-decoration: none;
+	transition: .1s;
+}
+
+#red {
+	color: black;
+}
+
+#orange {
+	color:black;
+}
+
+#orange:hover {
+	color: orange;
+	text-decoration: none;
+	transition: .2s;
+}
+
+
+#yellow {
+	color:black;
+}
+
+#yellow:hover {
+	color: yellow;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#green {
+	color:black;
+}
+
+#green:hover {
+	color: green;
+	text-decoration: none;
+	transition: .2s;
+}
+
+
+#blue {
+	color:black;
+}
+
+#blue:hover {
+	color: blue;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#purple {
+	color:black;
+}
+
+#purple:hover {
+	color: purple;
+	text-decoration: none;
+	transition: .2s;
+}
+
+
+#purple:hover {
+	color: purple;
+	text-decoration: none;
+	transition: .2s;
+
+}
+
+.text {
+	position: absolute;
+	top: 500px;
+	left: 500px;
+
+
+}
+
+.div {
+	border:10px solid black;
+}
+
+.flex {
+	display: flex;
+	width: 100%
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+
+
+.flex {
+	height: 300px;
+	width: 300px;
+	/*overflow: hidden;*/
+	transition-property: background 1s ease-out;
+
+}
+.box {
+	background-color: white;
+}
+
+.box:hover .guy {
+	width: 1500px;
+	transition-property: background-image, transform:translate(600px,0);
+	overflow: hidden;
+	transition-duration: 3s;
+
+}
+
+.flex:hover .guy{ 
+	background-image: url(images/giphy-downsized.gif);
+	background-size: 200px 200px;
+	overflow: hidden;
+
+}
+
+.guy {
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	transition-property: background-image, transform:translate(350px,0);
+	transition-duration: 4s, 4s;
+	transition-timing-function: ease-out;
+	overflow: hidden;
+
+	
+}
+
+.text {
+	position: absolute;
+	top: 500px;
+	left: 500px;
+
+
+}
+
+
+
+
