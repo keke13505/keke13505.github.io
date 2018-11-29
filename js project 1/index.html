@@ -3,35 +3,38 @@
 <head>
 	<title>changing on you</title>
 	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Niramit');
 		#header {
 			color: black;
 			width: 1000px;
 			height: 10px;
-			font-size: 20px;
+			font-size: 35px;
 			position: relative;
-
+			font-family: 'Chakra Petch', sans-serif;
+			left: 270px
 
 		}
 
 
 #below {
 	font-size: 18px;
-	position: relative;
-	left: 20px
+	position: absolute;
+	font-family: 'Chakra Petch', sans-serif;
+	left: 150px
 }
 
 .line {
-	width: 1000px;
+	width: 2000px;
 	height: 2px;
 	background-color: black;
 	position: relative;
-	top: 40px;
+	top: 60px;
 	left: -10px
 }
 
 #box1 {
 	position: relative;
-	top: 90px;
+	top: 120px;
 
 }
 
@@ -43,10 +46,49 @@ img {
 
 #words {
 	position: relative;
-	top: -320px;
+	top: -300px;
 	font-size: 20px;
+	font-family: 'Niramit', sans-serif;
 
 }
+
+#box2 {
+	position: absolute;
+	top: 100px;
+	left: 350px
+}
+
+#word2 {
+	position: absolute;
+	top: 450px;
+	left: 350px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 20px
+}
+
+.help {
+	width: 250px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	left: 400px;
+	top: 500px;
+	color: white;
+	transition: all 1s ease-in-out ;
+
+}
+
+.clicked {
+			position: absolute;
+			width: 1000px;
+			height: 1000px;
+			top: 0px;
+			left: 0px;
+			background-image: url(photos/giphy.gif);
+			
+		}
+
+
 
 </style>
 </head>
@@ -58,10 +100,19 @@ img {
 
 	<div class="line"></div>
 
-	<div id="box1"> 
 		<img src="photos/sleep.jpg"> </div> 
-	<div id="words">  Do you ever feel dependent on your phone?</div> </div>
+	<div id="words">  Do you ever feel dependent on your phone?</div>
+
+	<div id="box2">
+		<img src="photos/cell-phone-addiction-stats.png"> </div>
+		<div id="word2"> Do you choose your phone over socializing with others? </div> 
 
 
+<div id="clickable"
+    class="help"> Click here to get help </div> 
+</div>
+
+	
 </body>
+<script type="text/javascript" src="index.js"></script>
 </html>
