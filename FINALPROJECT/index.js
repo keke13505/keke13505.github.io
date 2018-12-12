@@ -1,9 +1,11 @@
+// $(document).ready(function() {
+//   document.onkeypress = function(e) {
+//   console.log(e)
+//   if (e.key === "w" ) {
+//         $("#one").css("background-color", "red");
+//   }
+// }
 
-// var video = document.getElementById('vid');
-// var video = document.getElementById('ocean');
-// var video = document.getElementById('cami');
-// var video = document.getElementById('night-sv');
-// var video = document.getElementsByClassName ('clips')
 
 
 
@@ -14,12 +16,26 @@ document.onkeypress = function(e) {
    vid.paused ? vid.play() : vid.pause();
    var vid = document.getElementById('vid').style.opacity = '1';
 
-  } else if (e.key === "2" ) {
+  } 
+
+  if (e.key === "1" ) {
+        $("#one").css("background-color", "#5F54FE");
+  
+}
+
+
+  else if (e.key === "2" ) {
    var cami = document.getElementById('cami');
    cami.paused ? cami.play() : cami.pause(); 
    var cami = document.getElementById('cami').style.opacity = '1';
 
   }
+
+    if (e.key === "2" ) {
+       $("#two").css("background-color", "#5F54FE");
+  
+}
+
 
 
  	else if 	(e.key === "3" ) {
@@ -28,10 +44,19 @@ document.onkeypress = function(e) {
    var night = document.getElementById('night-sv').style.opacity = '1';
 }
 
+  if (e.key === "3" ) {
+        $("#three").css("background-color", "#5F54FE");
+  
+}
+
   	else if (e.key === "4" ) {
    var ocean = document.getElementById('ocean');
    ocean.paused ? ocean.play() : ocean.pause(); 
  var ocean = document.getElementById('ocean').style.opacity = '1';
+}
+  if (e.key === "4" ) {
+        $("#four").css("background-color", "#5F54FE");
+  
 }
   	
 	if  (e.key === "5" ) {
@@ -42,12 +67,21 @@ document.onkeypress = function(e) {
      videos[i].style.opacity = '1';
    }
 }
+if (e.key === "5" ) {
+        $("#five").css("background-color", "#5F54FE");
+  
+}
 
 
     else if (e.key === "6" ) {
    var jesus = document.getElementById('jesus');
    jesus.paused ? jesus.play() : jesus.pause(); 
  var jesus = document.getElementById('jesus').style.opacity = '1';
+}
+
+if (e.key === "6" ) {
+        $("#six").css("background-color", "#5F54FE");
+  
 }
 
 if  (e.key === "7" ) {
@@ -58,6 +92,10 @@ if  (e.key === "7" ) {
      group[i].style.opacity = '1';
    }
  }
+  if (e.key === "7" ) {
+        $("#seven").css("background-color", "#5F54FE");
+  
+}
 
   if  (e.key === "8" ) {
    var long = document.getElementById('long').getElementsByClassName('tik');
@@ -70,26 +108,10 @@ if  (e.key === "7" ) {
 
    }
 
-var music = document.getElementById("music");
-
-function getVolume() { 
-  alert(music.volume);
-} 
+   if (e.key === "8" ) {
+        $("#eight").css("background-color", "#5F54FE");
   
-function setHalfVolume() { 
-  music.volume = 0.2;
-} 
-
-
- 
-
-  // var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  //   if(!isChrome){
-  //     $('#iframeAudio').remove()
-  //   }
-  // else{
-  //    $('#hello').remove() //just to make sure that it will not have 2x audio in the background 
-  // }
+}
 
 
     if  (e.key === "9" ) {
@@ -100,7 +122,56 @@ function setHalfVolume() {
      pop[i].style.opacity = '1';
   
  }
-}}
+}
+  if (e.key === "9" ) {
+        $("#nine").css("background-color", "#5F54FE");
+  
+}
+
+
+    if  (e.key === "q" ) {
+   var flow = document.getElementById('flow').getElementsByClassName('drop');
+
+   for(var i = 0; i < flow.length; i ++){
+     flow[i].paused ? flow[i].play() : flow[i].pause(); 
+     flow[i].style.opacity = '1';
+
+}
+}
+  if (e.key === "q" ) {
+        $("#qq").css("background-color", "#5F54FE");
+  
+}
+
+}
+
+
+
+var music = document.getElementById("music");
+music.volume = 0.09
+
+var snowangel = document.getElementById("snowangel");
+snowangel.volume = 0.0008;
+
+var loop = document.getElementById("milan");
+loop.volume = 0.2
+
+var coors = document.getElementById("sunsetmon");
+coors.volume = 0.1;
+
+var ice = document.getElementById("ice");
+ice.volume = 0.1;
+
+var amst = document.getElementById("amst");
+amst.volume = 0.1;
+
+var vid = document.getElementById("vid");
+vid.volume = 0.5;
+
+var dance = document.getElementById("dance");
+dance.volume = 0.5;
+
+
 
 // pop.addEventListener('ended'), function(){
 //   // // Reset the video to 0
