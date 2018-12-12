@@ -1,0 +1,94 @@
+
+
+
+
+
+
+var video = document.getElementById('vid');
+
+
+document.onkeypress = function(e) {
+  console.log(e)
+  if (e.key === "1" ) {
+   { video.paused ? video.play() : video.pause(); }
+  }
+};
+
+
+
+var video = document.getElementById('ocean');
+
+
+document.onkeypress = function(e) {
+  console.log(e)
+  if (e.key === "2" ) {
+   { video.paused ? video.play() : video.pause(); }
+  }
+};
+
+
+
+
+
+
+
+
+
+
+// var clickable = document.getElementById("clickable");
+// var clip = document.getElementById("clip");
+
+// clickable.onclick= function playClip() {
+
+// 	clip.play("clicked")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var car = document.getElementById('car');
+
+// document.documentElement.addEventListener("keyup", function(e) {
+//     var ev = e || window.event; // window.event for IE fallback
+//     if(ev.keyCode == 1) {
+//         // toggle play/pause
+//         if(myVideo.paused) { myVideo.play(); }
+//         else { myVideo.pause(); }
+//     }
+// });
+
+
+// var video = document.getElementById('car');   
+// document.onkeypress = function(e){
+//     if((e || window.event).keyCode === 49){
+//         video.paused ? video.play() : video.pause();
+//     }
+// };
+
+
+
+
+
+
+
+
+
+
+// window.addEventListener ("keydown", checkKeyPress, false);
+
+// function checkKeypress (key) {
+// 	if (key.keyCode == "65") {
+// 		alert("The 'a' letter key has been pressed")
+// 	}
+// }
